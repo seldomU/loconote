@@ -1,0 +1,37 @@
+{
+	"version": "0.1",
+	"cells": [
+		{
+			"content": "<p>Programming with blocks<br /><br />Loconote code cells, like the one below this text cell, contain programs that you can run and modify. Everytime you press a cell's ▶-play icon, its program runs. The program results are displayed at the bottom of the cell. To change the program, click the cell's 🖉-pen icon. That will open the code editor.<br /><br />The following video shows the editor in action. The editor's left side contains all kinds of blocks that you can use in your program, while the right side contains your program code. You can drag and drop program blocks around to change the program's code.</p>\n<p><video controls=\"controls\" width=\"300\" height=\"150\">\n<source src=\"/loconote/examples/blockedit.mp4\" type=\"video/mp4\" /></video></p>\n<p>The program of the cell below does not do anything yet. Make it output some text, like \"hello\".</p>",
+			"type": "richtext"
+		},
+		{
+			"content": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"loco_textout_start\" id=\")w{WiwJ)J@WRz1aD0C77\" deletable=\"false\" x=\"129\" y=\"59\"></block></xml>",
+			"blockly": {
+				"toolboxfolders": [
+					{
+						"kind": "category",
+						"name": "Output",
+						"categorystyle": "math_category",
+						"contents": [
+							{
+								"kind": "block",
+								"type": "loco_textout_write",
+								"enabled": true
+							},
+							{
+								"kind": "block",
+								"type": "text",
+								"fields": {
+									"TEXT": "abc"
+								},
+								"enabled": true
+							}
+						]
+					}
+				]
+			},
+			"type": "blocktext"
+		}
+	]
+}
