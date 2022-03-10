@@ -1,5 +1,5 @@
 (function() {
-    window.Loconote = function(parent, initialContent, baseURL){
+    window.Loconote = function(parent, baseURL, initialContent){
         
         // get parent DOM node
         let parentNode;
