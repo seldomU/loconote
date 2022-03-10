@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Framed loconote</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='../loconote/loconote.js'></script>
+
+
+</head>
+<body>
+    <h2>Parent document</h2>
+    <p>This page contains a loconote iframe after this paragraph.</p>
+
+    <div id="note-container" style="width:100%;height:500px"></div>
+
+    <p>Also, above this paragraph.</p>
+
+    <script>
+        // notebook content
+        let notebookContent = `{
+	"version": "0.1",
+	"cells": [
+        {
+            "type": "richtext",
+            "content": "<h2>Welcome to Loconote</h2><p>Loconote is a kind of document that mixes text and images with computation."
+        }
+    ]
+}`;
+
+        let notebook = window.Loconote('#note-container', notebookContent);
+    </script>
+</body>
+</html>

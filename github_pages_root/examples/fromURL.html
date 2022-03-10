@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Framed loconote</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='../loconote/loconote.js'></script>
+
+
+</head>
+<body>
+    <div id="note-container" style="width:100%;height:100vh"></div>
+
+    <script>
+
+        async function loadNotebook(){
+            const urlParams = new URLSearchParams(window.location.search);
+            const notebookURL = urlParams.get('notebook');
+            let notebookResp = await fetch(notebookURL);
+            let notebookContent = await notebookResp.text();
+            window.Loconote('#note-container', notebookContent);
+        }
+        loadNotebook();
+    </script>
+</body>
+</html>
