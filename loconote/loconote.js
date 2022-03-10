@@ -1,5 +1,5 @@
 (function() {
-    window.Loconote = function(parent, initialContent){
+    window.Loconote = function(parent, initialContent, baseURL){
         
         // get parent DOM node
         let parentNode;
@@ -12,7 +12,7 @@
     
         // load notebook in iframe
         let iframe = document.createElement("iframe");
-        iframe.setAttribute('src', '/loconote/index.html');
+        iframe.setAttribute('src', baseURL + 'index.html');
         iframe.setAttribute('id', 'loconote_iframe');
         iframe.style.width = '100%';
         iframe.style.height = '100%';

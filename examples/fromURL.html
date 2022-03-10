@@ -19,7 +19,7 @@
             const notebookURL = urlParams.get('notebook');
             let notebookResp = await fetch(notebookURL);
             let notebookContent = await notebookResp.text();
-            window.Loconote('#note-container', notebookContent);
+            window.Loconote('#note-container', "/loconote/loconote/", notebookContent);
         }
         loadNotebook();
     </script>

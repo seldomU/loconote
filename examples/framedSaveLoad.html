@@ -43,7 +43,7 @@
         }
 
         async function loadNotebook(){
-            let notebook = window.Loconote('#note-container');
+            let notebook = window.Loconote('#note-container', "/loconote/loconote/");
 
             // handle save button
             document.getElementById("save-file").onclick = async () => {
