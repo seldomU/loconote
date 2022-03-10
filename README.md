@@ -1,7 +1,7 @@
 
 <p align="center">
 
-  <h3 align="center">Loconote</h3>
+  <h1 align="center">Loconote</h1>
 
   <p align="center">
     Low code computational notebook
@@ -28,8 +28,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
-Loconote is made possible by the following open source projects. Thank you!
- * [Blockly](https://github.com/google/blockly)
- * [TinyMCE](https://github.com/tinymce/tinymce)
- * [Bootstrap](https://github.com/twbs/bootstrap)
- * [Remix icons](https://github.com/Remix-Design/RemixIcon)
+Loconote is made possible by the following open source projects. Thank you [Blockly](https://github.com/google/blockly), [TinyMCE](https://github.com/tinymce/tinymce), [Bootstrap](https://github.com/twbs/bootstrap), [Remix icons](https://github.com/Remix-Design/RemixIcon)
