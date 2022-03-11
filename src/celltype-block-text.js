@@ -7,7 +7,7 @@ let defaultConfig = {
       {
         "kind": "category",
         "name": "Output",
-        "categorystyle": "math_category",
+        "categorystyle": "maker_category",
         "contents": [
           {
             "kind": "block",
@@ -36,7 +36,7 @@ let blockdefs = [
       "type": "input_statement",
       "name": "INSTRUCTIONS"
     }],
-    "style": "math_blocks",
+    "style": "maker_blocks",
     "tooltip": "%{BKY_LOCO_TEXTOUT_TIP}",
     "helpUrl": ""
   },
@@ -52,11 +52,24 @@ let blockdefs = [
     ],
     "nextStatement": null,
     "previousStatement": null,
-    "style": "math_blocks",
+    "style": "maker_blocks",
     "tooltip": "Writes the attached text into the output area.",
     "helpUrl": ""
   }  
 ];
+
+Blockly.BlockSvg.START_HAT = true;
+
+let locoTheme = Blockly.Theme.defineTheme('loco', {
+  base: Blockly.Themes.Classic,
+  startHats: true,
+  blockStyles: {
+      maker_blocks: { colourPrimary: "#A6935B"} // hue 45
+  },
+  categoryStyles: {
+      maker_category:{ colour: "#A6935B" } // 45 
+  }
+});
 
 Blockly.defineBlocksWithJsonArray(blockdefs);
 
@@ -123,7 +136,7 @@ async function createWorkspace(cellConfig, domId, onEdit) {
   }
 
   // create workspace
-  let workspace = Blockly.inject(domId, { toolbox: toolboxDefintion } );
+  let workspace = Blockly.inject(domId, { toolbox: toolboxDefintion, theme: locoTheme } );
 
   // populate workspace
   if (cellConfig.content) {
