@@ -153,6 +153,11 @@ async function execute( cellConfig, id, parent ){
       window.outputDiv.textContent = "An error occured while running the program.";
     }
 
+    // if no output was generated, indicate that
+    if(window.outputDiv.textContent.length == 0){
+      window.outputDiv.textContent = "The cell program has no output.";
+    }
+
     window.outputDiv = null;
     return codeDiv;
 }
