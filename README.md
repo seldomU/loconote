@@ -6,7 +6,7 @@
   <p align="center">
     Low code computational notebook
     <br />
-    Demo pages: <a href="https://seldomu.github.io/loconote/examples/fromURL.html?notebook=notebook-introduction.loco">Introduction</a> · <a href="https://seldomu.github.io/loconote/examples/fromURLWithSerialize.html?notebook=notebook-introduction.loco">saving and loading loconotes</a>
+    Demo pages: <a href="https://seldomu.github.io/loconote/examples/fromURL.html?notebook=notebook-introduction.loco">Introduction</a> · <a href="https://seldomu.github.io/loconote/examples/fromURL.html?notebook=programming.loco">Programming</a> · <a href="https://seldomu.github.io/loconote/examples/fromURLWithSerialize.html?notebook=notebook-introduction.loco">saving and loading loconotes</a>
     <br />
   </p>
 </p>
