@@ -3,7 +3,7 @@
 	"cells": [
 		{
 			"type": "richtext",
-			"content": "<h3>Welcome to Loconote</h3>\n<p>A Loconote is a document that combines text and images with code. It also combines reading and editing of documents, allowing readers to modify the content and experiment with it. Loconotes are well suited for working with data and learning about programming.</p>\n<p>Each document is divided into cells that contain either text (like the cell you are reading) or code. You can change the content of a cell by clicking the 🖉-pen icon on its left side. Give it a try! A text editor will appear and the pen icon will be replaced by an <span class=\"ILfuVd\"><span class=\"hgKElc\">👁-</span></span>eye. When you are done with your changes, press the eye icon to hide the editor.&nbsp;</p>"
+			"content": "<h3>Welcome to Loconote</h3>\n<p>A Loconote is a document that combines text and images with code. It also combines reading and editing of documents, allowing readers to modify the content and experiment with it. Loconotes are well suited for working with data and learning about programming.</p>\n<p>Each document is divided into cells that contain either text (like the cell you are reading) or code. You can change the content of a cell by clicking the pen icon on its left side. Give it a try! A text editor will appear and the pen icon will be replaced by an <span class=\"ILfuVd\"><span class=\"hgKElc\">👁-</span></span>eye. When you are done with your changes, press the eye icon to hide the editor.&nbsp;</p>"
 		},
 		{
 			"type": "richtext",
