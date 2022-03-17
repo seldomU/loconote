@@ -17,7 +17,7 @@
 
 ## About
 
-Loconote is a document type that combines rich text with code, inspired by projects like [jupyter notebook](https://jupyter.org/). Loconote uses a visual code editor to lower the required level of the user's programming skills. The goal is to broaden the use of such [literate programming](https://en.wikipedia.org/wiki/Literate_programming) tools and to make them available to students and non-programmers.
+Loconote is a document type that combines rich text with code, inspired by projects like [Jupyter Notebook](https://jupyter.org/). Loconote uses a visual code editor to lower the required level of the user's programming skills. The goal is to broaden the use of such [literate programming](https://en.wikipedia.org/wiki/Literate_programming) tools and to make them available to students and non-programmers.
 
 Loconote takes the form of a JavaScript library that can be embedded into websites.
 
