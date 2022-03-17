@@ -2,7 +2,7 @@ import {createDomNode} from './util.js'
 import stdToolbox from './toolbox-stdlib-nocolor.js'
 
 let defaultConfig = {
-  "content": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"loco_textout_start\" id=\")w{WiwJ)J@WRz1aD0C77\" x=\"129\" y=\"59\" deletable=\"false\"><statement name=\"INSTRUCTIONS\"><block type=\"loco_textout_write\" id=\",AI5q_*VyiSiI1w6Nwgy\"><value name=\"VALUE\"><block type=\"text\" id=\"SRSA_d%[fKDtpQ]IFu$m\"><field name=\"TEXT\">hello world</field></block></value></block></statement></block></xml>",
+  "content": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"loco_textout_start\" id=\")w{WiwJ)J@WRz1aD0C77\" x=\"59\" y=\"59\" deletable=\"false\"><statement name=\"INSTRUCTIONS\"><block type=\"loco_textout_write\" id=\",AI5q_*VyiSiI1w6Nwgy\"><value name=\"VALUE\"><block type=\"text\" id=\"SRSA_d%[fKDtpQ]IFu$m\"><field name=\"TEXT\">hello world</field></block></value></block></statement></block></xml>",
   "blockly": {
     "toolboxfolders": stdToolbox
   }
