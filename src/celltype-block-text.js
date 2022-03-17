@@ -74,7 +74,7 @@ Blockly.JavaScript.loco_textout_write = function(block) {
 
 function displaySource(cellConfig, id, parent){
 
-    let div = createDomNode(`<div id="${id}"> <img src="icons/codeblock.svg" width="30px" height="30px" alt="{}"> Computed text </div>`);
+    let div = createDomNode(`<div id="${id}"> </div>`);
     parent.prepend(div);
     return div;
 }

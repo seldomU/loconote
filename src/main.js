@@ -170,7 +170,7 @@ function generateCellDOM(cell, parent){
     </div>
     <!--content-->
     <div id="${contentId}" class="col-10 border border-2 rounded-3 p-2">
-        ${isRichText ? "": "<hr/>"}
+        <!-- ${isRichText ? "": "<hr/>"} -->
     </div>
 </div>`;
 
