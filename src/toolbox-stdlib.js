@@ -1,3 +1,7 @@
+
+// Copyright (c) 2022 Uwe Koch
+// Licensed under the MIT license. See LICENSE file in the project root for details.
+
 export default [
     {
         "kind": "category",
