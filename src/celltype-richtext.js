@@ -11,7 +11,7 @@ function displaySource(cellConfig, id, parent){
 }
 
 function editSource(cellConfig, id, parent, onEdit){
-    let textArea = createDomNode(`<textarea id="${id}"></textarea>`);
+    let textArea = createDomNode(`<textarea id="${id}" style="height: 40vh; width: 100%;"></textarea>`);
     parent.prepend(textArea);
     let theEditor;
     tinymce.init({
