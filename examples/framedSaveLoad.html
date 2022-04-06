@@ -9,17 +9,18 @@
 
 
 </head>
-<body style="background-color:rgb(255, 247, 130)">
-    <div id="note-container" style="width:100%;height:70vh"></div>
-
+<body>
+    
     <h4>Loconotes can be stored on disk</h4>
 
     <p>
-        Save the above loconote to file <button id="save-file">save</button>
+        Save the loconote below as a file <button id="save-file">save</button>
     </p>
     <p>
-        Load loconote from file<input class="form-control" type="file" id="file-selector" accept=".loco"/>
+        Load a loconote file from disk <input class="form-control" type="file" id="file-selector" accept=".loco"/>
     </p>
+    <hr/>
+    <div id="note-container" style="width:100%;height:70vh"></div>
 
     <script>
 
