@@ -167,7 +167,7 @@ function generateCellDOM(cell, parent){
         <div class="row">
             <div class="col-11 offset-1 col-sm-8 offset-sm-4 col-md-6 offset-md-6 col-lg-5 offset-lg-7 text-end">
                 <div id="${deleteBtnId}" style="cursor: pointer;">
-                    <img src="icons/remix/delete-bin-7-fill.svg" width="24px" height="24px" alt="ⓧ">
+                    <img src="icons/remix/close-fill.svg" width="24px" height="24px" alt="ⓧ">
                 </div>
             </div>
         </div>
