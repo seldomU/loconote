@@ -41,7 +41,7 @@
 		},
 		{
 			"type": "richtext",
-			"content": "<h6>Adding cells</h6>\n<p>At the bottom of the document you find buttons for adding cells. Add one of each kind. Then delete them with the 🗑-bin icon that is on the left of each cell.</p>"
+			"content": "<h6>Adding cells</h6>\n<p>At the bottom of the document you find buttons for adding cells. Add one of each kind. Then delete them with the ✕-delete icon that is on the left of each cell.</p>"
 		},
 		{
 			"type": "richtext",
