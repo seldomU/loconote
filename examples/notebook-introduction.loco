@@ -7,7 +7,7 @@
 		},
 		{
 			"type": "richtext",
-			"content": "<h6>Text cells</h6>\n<p>Each document is divided into cells that contain either text (like the cell you are reading) or code. You can change the content of a cell by clicking the pen icon on its left side. Give it a try! A text editor will appear and the pen icon will be replaced by an <span class=\"ILfuVd\"><span class=\"hgKElc\">👁-</span></span>eye. When you are done with your changes, press the eye icon to hide the editor.&nbsp;</p>"
+			"content": "<h6>Text cells</h6>\n<p>Each document is divided into cells that contain either text (like the cell you are reading) or code. You can change the content of a cell by clicking the pen icon on its left side. Give it a try on this cell! A text editor will appear and the pen icon will be replaced by an <span class=\"ILfuVd\"><span class=\"hgKElc\">👁-</span></span>eye. When you are done with your changes, press the eye icon to hide the editor.</p>\n<p>The text edior looks like this:</p>\n<p><img src=\"../examples/textcell-editor.png\" alt=\"text editor\" width=\"358\" height=\"125\" /></p>"
 		},
 		{
 			"type": "richtext",
@@ -18,24 +18,24 @@
 			"content": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"loco_textout_start\" id=\")w{WiwJ)J@WRz1aD0C77\" deletable=\"false\" x=\"129\" y=\"59\"><statement name=\"INSTRUCTIONS\"><block type=\"loco_textout_write\" id=\",AI5q_*VyiSiI1w6Nwgy\"><value name=\"VALUE\"><block type=\"text\" id=\"SRSA_d%[fKDtpQ]IFu$m\"><field name=\"TEXT\">hello world</field></block></value></block></statement></block></xml>",
 			"blockly": {
 				"toolboxfolders": [
-				{
-					"kind": "category",
-					"name": "Output",
-					"categorystyle": "math_category",
-					"contents": [
 					{
-						"kind": "block",
-						"type": "loco_textout_write"
-					},
-					{
-						"kind": "block",
-						"type": "text",
-						"fields": {
-							"TEXT": "abc"
-						}
+						"kind": "category",
+						"name": "Output",
+						"categorystyle": "math_category",
+						"contents": [
+							{
+								"kind": "block",
+								"type": "loco_textout_write"
+							},
+							{
+								"kind": "block",
+								"type": "text",
+								"fields": {
+									"TEXT": "abc"
+								}
+							}
+						]
 					}
-					]
-				}
 				]
 			}
 		},
